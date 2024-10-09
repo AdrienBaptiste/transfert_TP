@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { CartComponent } from './components/CartComponent';
 import { ProductComponent } from './components/ProductComponent';
 import { getCartTotal, clearCart } from './services/CartService';
+import './index.css';
 
 const App: React.FC = () => {
     const [total, setTotal] = useState<number>(0);
